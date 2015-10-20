@@ -1,0 +1,14 @@
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+led configuration\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h
+led configuration\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+led configuration\timers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led configuration\timers.o: ..\Inc\FreeRTOSConfig.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM0\portmacro.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\task.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h
+led configuration\timers.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\timers.h

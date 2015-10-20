@@ -1,0 +1,11 @@
+led configuration\list.o: ..\Middlewares\Third_Party\FreeRTOS\Source\list.c
+led configuration\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+led configuration\list.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\FreeRTOS.h
+led configuration\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+led configuration\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led configuration\list.o: ..\Inc\FreeRTOSConfig.h
+led configuration\list.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\projdefs.h
+led configuration\list.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\portable.h
+led configuration\list.o: ..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM0\portmacro.h
+led configuration\list.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\mpu_wrappers.h
+led configuration\list.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\list.h
