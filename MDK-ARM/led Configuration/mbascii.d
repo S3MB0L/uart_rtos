@@ -1,0 +1,14 @@
+led configuration\mbascii.o: ..\modbus\ascii\mbascii.c
+led configuration\mbascii.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+led configuration\mbascii.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+led configuration\mbascii.o: ..\modbus\port\port.h
+led configuration\mbascii.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+led configuration\mbascii.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+led configuration\mbascii.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led configuration\mbascii.o: ..\modbus\include\mb.h
+led configuration\mbascii.o: ..\modbus\include\mbport.h
+led configuration\mbascii.o: ..\modbus\include\mbproto.h
+led configuration\mbascii.o: ..\modbus\include\mbconfig.h
+led configuration\mbascii.o: ..\modbus\ascii\mbascii.h
+led configuration\mbascii.o: ..\modbus\include\mbframe.h
+led configuration\mbascii.o: ..\modbus\rtu\mbcrc.h

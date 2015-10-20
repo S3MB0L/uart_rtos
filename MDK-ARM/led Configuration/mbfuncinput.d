@@ -1,0 +1,12 @@
+led configuration\mbfuncinput.o: ..\modbus\functions\mbfuncinput.c
+led configuration\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+led configuration\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+led configuration\mbfuncinput.o: ..\modbus\port\port.h
+led configuration\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+led configuration\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+led configuration\mbfuncinput.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led configuration\mbfuncinput.o: ..\modbus\include\mb.h
+led configuration\mbfuncinput.o: ..\modbus\include\mbport.h
+led configuration\mbfuncinput.o: ..\modbus\include\mbproto.h
+led configuration\mbfuncinput.o: ..\modbus\include\mbframe.h
+led configuration\mbfuncinput.o: ..\modbus\include\mbconfig.h

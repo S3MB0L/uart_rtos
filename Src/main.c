@@ -36,24 +36,23 @@
 #include "stm32f0xx_hal.h"
 #include "cmsis_os.h"
 
-/* USER CODE BEGIN Includes */
+#include "mb.h"
+#include "mbport.h"
+
 #include "stdio.h"
+
 #ifdef __GNUC___
 	
 		#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #else 
 		#define PUTCHAR_PROTOTYPE int fputc(int ch,FILE *f)
 #endif
-/* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart1;
 
 osThreadId uartTaskHandle;
 
-/* USER CODE BEGIN PV */
-
-/* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
@@ -61,20 +60,11 @@ static void MX_GPIO_Init(void);
 static void MX_USART1_UART_Init(void);
 void uartTask_Fonk(void const * argument);
 
-/* USER CODE BEGIN PFP */
 
-/* USER CODE END PFP */
-
-/* USER CODE BEGIN 0 */
-
-/* USER CODE END 0 */
 
 int main(void)
 {
 
-  /* USER CODE BEGIN 1 */
-
-  /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
 
@@ -87,52 +77,19 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART1_UART_Init();
-
-  /* USER CODE BEGIN 2 */
-
-  /* USER CODE END 2 */
-
-  /* USER CODE BEGIN RTOS_MUTEX */
-  /* add mutexes, ... */
-  /* USER CODE END RTOS_MUTEX */
-
-  /* USER CODE BEGIN RTOS_SEMAPHORES */
-  /* add semaphores, ... */
-  /* USER CODE END RTOS_SEMAPHORES */
-
-  /* USER CODE BEGIN RTOS_TIMERS */
-  /* start timers, add new ones, ... */
-  /* USER CODE END RTOS_TIMERS */
-
+	eMBInit(MB_RTU,0x01,1,9600,MB_PAR_NONE);
+	eMBEnable();
   /* Create the thread(s) */
   /* definition and creation of uartTask */
   osThreadDef(uartTask, uartTask_Fonk, osPriorityNormal, 0, 128);
   uartTaskHandle = osThreadCreate(osThread(uartTask), NULL);
 
-  /* USER CODE BEGIN RTOS_THREADS */
-  /* add threads, ... */
-  /* USER CODE END RTOS_THREADS */
-
-  /* USER CODE BEGIN RTOS_QUEUES */
-  /* add queues, ... */
-  /* USER CODE END RTOS_QUEUES */
- 
-
-  /* Start scheduler */
   osKernelStart();
   
-  /* We should never get here as control is now taken by the scheduler */
-
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
   while (1)
   {
-  /* USER CODE END WHILE */
-
-  /* USER CODE BEGIN 3 */
 
   }
-  /* USER CODE END 3 */
 
 }
 
@@ -217,28 +174,30 @@ void MX_GPIO_Init(void)
 
 }
 
-/* USER CODE BEGIN 4 */
+
 PUTCHAR_PROTOTYPE
 {
 	HAL_UART_Transmit(&huart1,(uint8_t *)&ch, 1,0xFFFF);
 	
 	return 0;
 }
-/* USER CODE END 4 */
+
 
 /* uartTask_Fonk function */
 void uartTask_Fonk(void const * argument)
 {
 
-  /* USER CODE BEGIN 5 */
+
   /* Infinite loop */
   for(;;)
   {
-		printf("Hello Rifat!\r\n");
+	eMBPoll();
+	printf("eMBPoll();");
+		printf("\r\nHello Rifat!\r\n");
 		HAL_Delay(500);
     osDelay(1);
   }
-  /* USER CODE END 5 */ 
+ 
 }
 
 #ifdef USE_FULL_ASSERT

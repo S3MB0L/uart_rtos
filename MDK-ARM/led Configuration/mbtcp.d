@@ -1,0 +1,13 @@
+led configuration\mbtcp.o: ..\modbus\tcp\mbtcp.c
+led configuration\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+led configuration\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+led configuration\mbtcp.o: ..\modbus\port\port.h
+led configuration\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+led configuration\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+led configuration\mbtcp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led configuration\mbtcp.o: ..\modbus\include\mb.h
+led configuration\mbtcp.o: ..\modbus\include\mbport.h
+led configuration\mbtcp.o: ..\modbus\include\mbproto.h
+led configuration\mbtcp.o: ..\modbus\include\mbconfig.h
+led configuration\mbtcp.o: ..\modbus\tcp\mbtcp.h
+led configuration\mbtcp.o: ..\modbus\include\mbframe.h

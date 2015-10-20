@@ -1,0 +1,12 @@
+led configuration\mbfuncholding.o: ..\modbus\functions\mbfuncholding.c
+led configuration\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+led configuration\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+led configuration\mbfuncholding.o: ..\modbus\port\port.h
+led configuration\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+led configuration\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+led configuration\mbfuncholding.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led configuration\mbfuncholding.o: ..\modbus\include\mb.h
+led configuration\mbfuncholding.o: ..\modbus\include\mbport.h
+led configuration\mbfuncholding.o: ..\modbus\include\mbproto.h
+led configuration\mbfuncholding.o: ..\modbus\include\mbframe.h
+led configuration\mbfuncholding.o: ..\modbus\include\mbconfig.h

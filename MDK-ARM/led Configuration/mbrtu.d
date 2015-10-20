@@ -1,0 +1,13 @@
+led configuration\mbrtu.o: ..\modbus\rtu\mbrtu.c
+led configuration\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+led configuration\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+led configuration\mbrtu.o: ..\modbus\port\port.h
+led configuration\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+led configuration\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+led configuration\mbrtu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+led configuration\mbrtu.o: ..\modbus\include\mb.h
+led configuration\mbrtu.o: ..\modbus\include\mbport.h
+led configuration\mbrtu.o: ..\modbus\include\mbproto.h
+led configuration\mbrtu.o: ..\modbus\rtu\mbrtu.h
+led configuration\mbrtu.o: ..\modbus\include\mbframe.h
+led configuration\mbrtu.o: ..\modbus\rtu\mbcrc.h

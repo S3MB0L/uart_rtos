@@ -37,4 +37,10 @@ led configuration\main.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\tim
 led configuration\main.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\queue.h
 led configuration\main.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\semphr.h
 led configuration\main.o: ..\Middlewares\Third_Party\FreeRTOS\Source\include\event_groups.h
+led configuration\main.o: ..\modbus\include\mb.h
+led configuration\main.o: ..\modbus\port\port.h
+led configuration\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+led configuration\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+led configuration\main.o: ..\modbus\include\mbport.h
+led configuration\main.o: ..\modbus\include\mbproto.h
 led configuration\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
